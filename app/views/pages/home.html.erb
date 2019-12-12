@@ -1,2 +1,47 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<!-- Don't want to see CSS in views!!!!!!!!!!! -->
+<% content_for :navbar do %>
+<%= render 'shared/navbar', white: true %>
+<% end %>
+
+<div class="hero-container">
+  <div class="w-100 text-center">
+    <!-- <h1 class="display-3">Healthy dinners. No food waste.</h1> -->
+    <h1 class="display-3">Healthy meals. No food waste.</h1>
+    <div class="search-hero input-group">
+     <input class="form-control string required" placeholder= "Try searching Madrid" type="text" name="query" id="search_query" />
+  <%= link_to "DISCOVER", root_path(), class: 'btn-hero link-white' %>
+
+     <div class="input-group-append">
+     </div>
+   </div>
+
+ </div>
+</div>
+
+<div class="steps-container" >
+  <div class="step-text-container">
+
+    <div class="step-info-container" id="step-info">
+      <h3 class="h3-category">Korterid Sikupilli rajoonis</h3>
+      <p class="p-darkgray">
+      Subruban Farm helps cut your carbon foot print and create a self-sustainable community. We connect busy suburban growers to people in the city.Happy growers, happy organics shoppers, less food wasted  </p>
+      <div class="step-arrow-container">
+        <div id="arrow-link"><img src="https://onomeals.zeusjones.com/images/svgs/arrow-right-black.svg" alt=""></div>
+        <a href="products/new" class="btn-small-cta link-black"><font>POST PRODUCE</font></a>
+      </div>
+    </div>
+
+  </div>
+  <div class="steps-image-container">
+
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
