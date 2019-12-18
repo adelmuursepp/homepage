@@ -17,6 +17,8 @@ gem 'uglifier'
 gem 'webpacker'
 gem "mediaelement_rails"
 gem 'magnific-popup-rails', '~> 1.1.0'
+gem 'jquery-rails'
+gem 'fancybox-rails'
 
 group :development do
   gem 'web-console', '>= 3.3.0'
