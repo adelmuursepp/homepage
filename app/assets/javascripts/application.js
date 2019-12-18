@@ -5,3 +5,4 @@
 //= require jquery
 //= require fancybox
 //= require bootstrap-datepicker
+//= require jquery-ui

@@ -20,6 +20,7 @@ gem 'magnific-popup-rails', '~> 1.1.0'
 gem 'jquery-rails'
 gem 'fancybox-rails'
 gem 'bootstrap-datepicker-rails'
+gem 'jquery-ui-rails'
 
 group :development do
   gem 'web-console', '>= 3.3.0'
