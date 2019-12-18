@@ -3,22 +3,19 @@
 <%= render 'shared/navbar', white: true %>
 <% end %>
 
-<div class="first-container">
-<div class="hero-container" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://images.unsplash.com/photo-1513694203232-719a280e022f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1498&q=80);">
-  <div class="hero text-center w-100">
-    <div class="hero-text">
-      <div class="hero-h1">
-        <h1>FOXAPARTMENTS</h1>
-      </div>
-      <div class="hero-p">
-        Korterid ja parkimiskohad kesklinnas, korterid töötavatele inimestele
-      </div>
-      <div class="hero-btn">
-        Vaata kortereid
-      </div>
-    </div>
-  </div>
-</div>
+<div class="hero-container">
+  <div class="w-100 text-center">
+    <!-- <h1 class="display-3">Healthy dinners. No food waste.</h1> -->
+    <h1 class="display-3">Healthy meals. No food waste.</h1>
+    <div class="search-hero input-group">
+     <input class="form-control string required" placeholder= "Try searching Madrid" type="text" name="query" id="search_query" />
+  <%= link_to "DISCOVER", root_path(), class: 'btn-hero link-white' %>
+
+     <div class="input-group-append">
+     </div>
+   </div>
+
+ </div>
 </div>
 
 <div class="steps-container" >
