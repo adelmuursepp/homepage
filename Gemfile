@@ -15,6 +15,8 @@ gem 'sassc-rails'
 gem 'simple_form'
 gem 'uglifier'
 gem 'webpacker'
+gem "mediaelement_rails"
+gem 'magnific-popup-rails', '~> 1.1.0'
 
 group :development do
   gem 'web-console', '>= 3.3.0'
