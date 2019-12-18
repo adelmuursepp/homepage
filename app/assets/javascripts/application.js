@@ -6,6 +6,7 @@
 //= require fancybox
 //= require bootstrap-datepicker
 //= require jquery-ui
+//= require owl.carousel
 
 $ (function() {
   AOS.init ();

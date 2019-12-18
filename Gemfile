@@ -21,6 +21,7 @@ gem 'jquery-rails'
 gem 'fancybox-rails'
 gem 'bootstrap-datepicker-rails'
 gem 'jquery-ui-rails'
+gem 'owlcarousel-rails'
 
 group :development do
   gem 'web-console', '>= 3.3.0'
