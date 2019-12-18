@@ -4,3 +4,4 @@
 //= require magnific-popup
 //= require jquery
 //= require fancybox
+//= require bootstrap-datepicker
