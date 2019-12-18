@@ -6,3 +6,7 @@
 //= require fancybox
 //= require bootstrap-datepicker
 //= require jquery-ui
+
+$ (function() {
+  AOS.init ();
+});
